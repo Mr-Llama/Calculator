@@ -73,7 +73,7 @@
 }
 .operator:active {
 	border-top: black 2px solid;
-	border-bottom: 2px #303030 solid;ss
+	border-bottom: 2px #303030 solid;
 }
 .number:active {
 	border-top: black 2px solid;
