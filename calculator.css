@@ -3,8 +3,8 @@
 
 /* Calculator Box */
 .box {
-	background-color: #e5e7ea;
-	height: 300px;
+	background-color: #FBFF00;
+	height: 350px;
 	width: 250px;
 	border-radius: 10px;
 	position: relative;
@@ -14,7 +14,7 @@
 
 /* Display */
 .display {
-	background-color: #bfc4ce;
+	background-color: #FF9400;
 	width: 220px;
 	position: relative;
 	left: 15px;
@@ -28,7 +28,7 @@
 	height: 30px;
 	width: 210px;
 	color: black;
-	background-color: #bccd95;
+	background-color: #FF9400;
 	font-size: 21px;
 	text-align: right;
 }
@@ -48,20 +48,20 @@
 	border-top: 2px solid transparent;
 }
 .button.function {
-	color: white;
-	background-color: #c64f81;
+	color: black;
+	background-color: #FF0000;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.operator {
-	color: white;
-	background-color: #4d5966;
+	color: black;
+	background-color: #FF9400;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.number {
-	color: white;
-	background-color: #7091ab;
+	color: black;
+	background-color: #00FF00;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
@@ -78,4 +78,8 @@
 .number:active {
 	border-top: black 2px solid;
 	border-bottom: 2px #6f6f6f solid;
+}
+body {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Llama_lying_down.jpg/220px-Llama_lying_down.jpg");
+	background-size: 20%;
 }
